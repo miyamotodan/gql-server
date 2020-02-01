@@ -11,6 +11,7 @@
 >}
 
 #mutation
+
 >mutation updateCourseTopic(&#0036;id: Int!, &#0036;topic: String!) {
 >  updateCourseTopic (id: &#0036;id, topic: &#0036;topic) {
 >    ...courseFields
@@ -27,6 +28,7 @@
 >  }	
 
 #params
+
 >{
 >  "id": 1,
 >  "topic": "pippo"
