@@ -10,7 +10,7 @@
 >  }
 >}
 
-#mutation
+# mutation
 
 >mutation updateCourseTopic(&#0036;id: Int!, &#0036;topic: String!) {
 >  updateCourseTopic (id: &#0036;id, topic: &#0036;topic) {
@@ -27,14 +27,14 @@
 >    url
 >  }	
 
-#params
+# params
 
 >{
 >  "id": 1,
 >  "topic": "pippo"
 >}
 
-#query
+# query
 
 >query getSingleCourse(&#0036;courseID: Int!) {
 > course(id: &#0036;courseID) {
@@ -46,7 +46,7 @@
 >}
 >}
 
-#params
+# params
 
 >{
 > "courseID": 1
